@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<style>
+    form {
+        width: 300px;
+        margin: auto;
+        padding: 5px;
+    }
+    h1{
+        text-align: center;
+    }
+  
+    button{
+        margin: 10px;
+        background-color: black;
+        color: whitesmoke;
+        width: 100px;
+    }
+</style>
+
+<body>
+    <div class="container bg-primary">
+            <h1>Registration Form</h1>
+            <form action="" method="post">
+            <div>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fnaame" name="fname" class="form-inline" value="" required/>
+            </div>
+            <div>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" class="form-inline" value="" required>
+            </div>
+            <div>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" class="form-inline" value="" autocomplete>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" class="form-inline" value="">
+            </div>
+            <div>
+                <label for="birthdate">Birthdate:</label>
+                <input type="date" id="birthdate" name="birthdate" class="form-inline" value="" required>
+            </div>
+            <div>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" class="form-inline" value="" max="40" min="10">
+            </div>
+            <div>
+                <label for="Address">Address:</label>
+                <textarea name="address" id="address" class="form-inline" cols="25" rows="2"></textarea>
+            </div>
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">Male
+                <input type="radio" id="female" name="gender" value="female">Female
+            </div>
+            <div class="appt">
+                <label for="appt">Select a time:</label>
+                <input type="time" id="appt" name="appt" class="form-inline" value="" required>
+            </div>
+            <div class="myfile">
+                <label for="myfile">Select a file:</label>
+                <input type="file" id="myfile" name="myfile" class="form-inline" required>
+            </div>
+            <div>
+                <label for="city">City:</label>
+                <select id="city" class="form-inline">
+                    <option value="Rajkot">Rajkot</option>
+                    <option value="Surat">Surat</option>
+                    <option value="Morbi">Morbi</option>
+                </select>
+            </div>
+            <div>
+                <label for="hobby">Hobby:</label>
+                <input type="checkbox" id="hobby" name="cricket" value="cricket">Cricket
+                <input type="checkbox" id="hobby" name="chess" value="chess">Chess
+            </div>
+            <div>
+                <label for="course">Course:</label>
+                <select id="course" class="form-inline">
+                    <option value="bca">BCA</option>
+                    <option value="bba">BBA</option>
+                    <option value="bcom">BCOM</option>
+                    <option value="bscit">BSCIT</option>
+                </select>
+            </div>
+            <div>
+                <button>submit</button>
+            </div>
+        </form>
+    </div>
+   
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+
+}
+
+.Navbar__Link {
+    padding-right: 8px;
+}
+
+.Navbar__Items {
+    display: flex;
+}
+
+.Navbar__Items--right {
+    margin-left: auto;
+}
+
+.Navbar__Link-toggle {
+    display: none;
+}
+
+@media screen and (max-device-width: 600px) {
+
+    .Navbar__Items,
+    .Navbar {
+        flex-direction: column;
+    }
+
+    .Navbar__Items {
+        display: none;
+        flex-direction: column;
+    }
+
+    .Navbar__Items--right {
+        margin-left: 0;
+    }
+
+    .Navbar__ToggleShow {
+        display: flex;
+    }
+
+    .Navbar__Link-toggle {
+        color: white;
+        align-self: flex-end;
+        display: initial;
+        cursor: pointer;
+        flex-direction: column;
+    }
+
+    .head1 {
+        flex-direction: column;
+    }
+
+    .head2 {
+        flex-direction: column;
+    }
+}
+
+
+.head1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.head1 a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.head2 {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 5px;
+}
+
+.head2 .btn1 {
+    background-color: #da592f;
+    color: white;
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 20px;
+    width: 200px;
+}
+
+.main1 {
+    background-color: #211f20;
+}
+
+.img01 {
+    position: relative;
+}
+
+.img1 img {
+    height: 500px;
+    width: 100%;
+}
+
+.img3 {
+    position: absolute;
+    top: 85%;
+    left: 40%;
+}
+
+.img01 .contactc {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.img01 .contactd {
+    color: #da592f;
+    padding-bottom: 5%;
+}
+
+.contacte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.contactf img {
+    height: 600px;
+    width: 400px;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+}
+
+.a11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.a12 {
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+
+.a13 {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    padding: 50px;
+
+}
+
+.a14 {
+    display: flex;
+    gap: 45px;
+}
+
+.a15 {
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+    padding: 30px 0;
+    width: 270px;
+}
+
+::placeholder {
+    color: white;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.a16 {
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+    padding: 30px 0;
+    width: 585px;
+    margin-top: 40px;
+}
+
+.a17 {
+    background-color: #da592f;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-family: Oswald, sans-serif;
+    border-radius: 50px;
+    font-size: 20px;
+    width: 170px;
+}
+
+.a18 {
+    color: white;
+    font-family: Oswald, sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-device-width: 600px) {
+    .an1 {
+        flex-direction: column;
+    }
+
+    .ao {
+        margin-left: 30%;
+        flex-direction: column;
+    }
+}
+
+.an {
+    background-color: #da592f;
+    color: white;
+    padding-top: 20px;
+}
+
+.an1 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 60px;
+
+}
+
+.an2 {
+    font-size: 50px;
+}
+
+.an3 {
+    background-color: #da592f;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 20px;
+    padding-top: 20px;
+    width: 80%;
+}
+
+.an3 {
+    border-bottom: 1px solid white;
+}
+
+.an4 {
+    align-items: center;
+}
+
+.an5 {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.an7 {
+    display: flex;
+    gap: 10px;
+}
+
+.an9 {
+    padding-top: 5px;
+}
+
+.ao {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ap {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.app {
+    font-size: 20px;
+}
